@@ -1,0 +1,167 @@
+/* ==============================================================================================
+===================================reset css============================================= */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+/* ==============reset css========================= */
+
+@font-face {
+    font-family: 'NanumSquareRound';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'NanumSquareRound';
+}
+.logo{
+    float: left;
+    padding: 26px 0 0 40px;
+}
+.gnb li{
+    float: left
+}
+.util{
+    float: right;
+}
+#gnb ul{
+    padding-left: 80px;
+}
+.inner-nav{
+    float: left;
+}
+#gnb{
+    float: left;
+}
+.gnb{
+    padding: 26px 0 0 40px;
+}
+.navi-content > li + li{
+    padding-left: 40px;
+}
+
+.navi-content>li{
+    padding-top: 6px;
+}
+.area-navi li{
+    padding: 0 12px
+}
+
+.btn-primary{
+    background-color: #00aa91;
+    color: #fff;
+    height: 32px;
+    line-height: 30px;
+    font-weight: 400;
+    border-radius: 4px;
+    border: none;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.area-navi > li+li::before{
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 20px;
+    background-color: #e9e9e9;
+    margin: 0 -10px
+}
+
+.area-navi li{
+    margin-top: 5px;
+}
+
+.area-navi a{
+    font-size: 14px;
+    color: #999999;
+}
+.clearfix{
+    clear: both;
+}
+.area-navi{
+    padding-right: 40px;
+}
+.txt-primary{
+    color: #00aa91 !important;
+}
+header{
+    width: 100%;
+    min-width: 1500px;
+    height: 80px;
+}
+.banner-area{
+    width: 100%;
+    height: 630px;
+    background: url('../images/jejuyongamsoo.jpg') no-repeat 50% 0;
+}
+
+.notice{
+    width: 960px;
+    margin: 0 auto;
+    padding: 24px 0;
+}
+.notice-title{
+    float: left;
+    width: 100px;
+    font-size: 16px;
+    color: #000;
+}
+.notice-content{
+    float: left;
+}
+.notice-warp{
+    border-bottom: 1px solid #d9d9d9;
+    height: 97px;
+}
+.notice-content li{
+    margin: 5px 0;
+}
+.notice-title h2{
+    margin-top: 5px;
+}
