@@ -394,7 +394,7 @@ header {
     padding-left: 32px;
 }
 .link-bn .tit{
-    font-style: 24px;
+    font-size: 24px;
     color: #111111;
     letter-spacing: -1px;
 }
@@ -402,4 +402,68 @@ header {
 .link-bn .desc {
     margin-top: 20px;
     color: #999999;
+}
+
+.app-down{
+    width: 100%;
+    height: 630px;
+    background: url(../images/bg_down.jpg) no-repeat 50% 0;
+}
+
+.app-down .conts-area{
+    padding-top: 80px;
+    background: url(../images/bg_down.jpg) no-repeat 50% 0;
+}
+.app-down .btn-sec{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+.app-down .title{
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    color: #111111;
+}
+.app-down a + a {
+    margin-left: 24px;
+}
+#footer{
+    width: 100%;
+    height: 237px;
+    background-color: #111111;
+    font-size: 14px;
+}
+#footer .conts-area{
+    width: 960px;
+    display: flex;
+    flex-direction: column;
+    color: #999999;
+}
+#footer .util>ul{
+    margin: 36px 0 20px 0;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+}
+
+.util>ul>li::after{
+    content:'｜';
+    margin: 0 8px;
+    font-size: 11px;
+    color: #666666;
+
+}
+.company-info>ul>li{
+    margin-bottom: 11px;
+}
+.util>ul>li:last-child::after{
+    content:'';
+}
+.copyright{
+    margin-top: 15px;
+    color: #666666;
+}
+.company-info>ul>li>a{
+    text-decoration: underline;
 }
