@@ -6,14 +6,114 @@
     <title>Document</title>
 </head>
 <body>
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
         let x=1;
         let y=3;
         document.write(++x + "<br>");
         document.write(x++ + "<br>");
         document.write(x++ + "<br>");
         document.write(x+"<br>");
-        document.write(x);
+        document.write(x + "<br>");
+
+        document.write(--y +"<br>");
+        document.write(y-- +"<br>");
+        document.write(y-- +"<br>");
+        document.write(y+"<br>");
+    </script> -->
+    
+    <!-- <button class="btn1"onclick="abc()">증가버튼</button>
+    <br> -->
+    <script type="text/javascript">
+
+
+// ----------------------------------------------------------------
+
+        // let a=prompt("수학점수는 몇점인가요?");
+        // let b=prompt("영어점수는 몇점인가요?");
+
+        // let c=a>=90 && b>=90;
+
+        // if(c){
+        //     document.write("합격");
+        // } else{
+        //     document.write("불합격");
+        // }
+
+        let n=Number(prompt("국어점수"));
+        let k=Number(prompt("영어점수"));
+        let e=Number(prompt("수학점수"));
+        let c=Number(prompt("컴퓨터점수"));
+        
+
+        let a=(n+k+e+c)/4;
+        if(a>=90){
+            document.write("A등급");
+        } 
+            else if(a>=80){
+                document.write("B등급");
+            } 
+            else if(a>=70){
+                document.write("C등급");
+            } 
+            else if(a>=60){
+                document.write("D등급");
+            }
+            else{
+                document.write("F등급");
+            }
+
+
+
+
+
+
+
+        // 수학점수가 90점 이상이고, 영어점수가 90점 이상이면 합격 그렇지 않으면 불합격을 만들어주세요
+
+        
+        // ------------------------------------------------------------
+        // let x=10;
+        // let y=20;
+        // if(x==y){
+        //     document.write('x와 y는 같습니다.');
+        // }
+        // else if(x>y){
+        //         document.write("x가 y보다 작습니다.");
+        //     }
+        // else{ // x > y인 경우
+        //     document.write('x가 y보다 큽니다.');
+        // }
+        
+        // -------------------------------------------------------------
+        // let x=prompt("당신의 나이는 몇살입니까?", "예)20 숫자만 입력해주세요");
+
+        // if(x>20){
+        //     document.write("당신은 성인입니다");
+        // }
+        // else{
+        //     document.write("ddd")
+        // }
+        
+        // let num=0;
+        // function abc(){
+        //     num++;
+        //     alert(num + "증가되었습니다");
+        // }
+        
+        // let x=3;
+        // let y=5;
+        // document.write("<h1>"+(x<y)+"</h1>");
+        // document.write("<h1>"+(x>y)+"</h1>");
+            
+        //     let a = alert("경고창");
+        //경고창
+        // let b=prompt("당신의 나이는 몇 살입니까?","숫자만 입력해주세요");
+        //상태창
+        // let c=confirm("당신의 나이는 18세 이상입니까?");
+        // 확인 취소
     </script>
+
 </body>
+
+
 </html>
