@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fa-bars{
+
+    font-size: 100px;
+}
+
+.a1{
+    color: aqua;
+}
+
+.a2{
+    background-color: beige;
+}
+
+
+.a5{
+    text-decoration: none;
+}

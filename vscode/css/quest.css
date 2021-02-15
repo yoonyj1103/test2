@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.warp{
+    width: 90%;
+}
+.warp2{
+    width: 70%;
+    display: flex;
+}
+.header{
+    width: 100%;
+    height: 200px;
+    background-color: lemonchiffon;
+
+}
+.content{
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+.left-content{
+    width: 30%;
+    height: 600px;
+    background-color: lightgreen;
+}
+.main-content{
+    width: 60%;
+    height: 600px;
+    background-color: lightgray;
+}
+.right-content{
+    width: 40%;
+    height: 600px;
+    flex-direction: column;
+}
+.top-content{
+    width: 100%;
+    height: 100px;
+    background-color: lightskyblue;
+}
+.bottom-content{
+    width: 100%;
+    height: 500px;
+    background-color: lightgreen;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+.footerwarp{
+    width: 60%;
+    display: flex;
+}
+.footer1{
+    width: 50%;
+    height: 200px;
+    background-color: lemonchiffon;
+}
+.footer2{
+    width: 50%;
+    height: 200px;
+    background-color: yellowgreen;
+}
+.footer3{
+    width: 40%;
+    height: 200px;
+    background-color: lightcoral;
+}
+
+@media (max-width: 767px){
+    .header{
+        width: 100%;
+        height: 150px;
+    }
+    .content{
+        height: 450px;
+        flex-direction: column;
+        /* display: block; */
+    }
+    .left-content{
+        width: 100%;
+        height: 150px;
+    }
+    .warp2{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .main-content{
+        width: 40%;
+        height: 300px;
+    }
+    .right-content{
+        width: 60%;
+        height: 300px;
+    }
+    .top-content{
+        width: 100%;
+        height: 150px;
+    }
+    .bottom-content{
+        width: 100%;
+        height: 150px;
+    }
+    .footer{
+        width: 100%;
+        height: 300px;
+        flex-direction: column;
+    }
+    .footer1{
+        width: 50%;
+        height: 150px;
+    }
+    .footer2{
+        width: 50%;
+        height: 150px;
+    }
+    .footer3{
+        width: 100%;
+        height: 150px;
+    }
+    .footerwarp{
+        width: 100%;
+        display: flex;
+        flex-direction: -reverse;
+    }
+}

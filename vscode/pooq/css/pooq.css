@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.row{
+    margin: 0 15px;
+}
+.keyback>img{
+    width: 23px;
+    height: 23px;
+}

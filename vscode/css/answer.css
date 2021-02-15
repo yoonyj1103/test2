@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+.warp{
+    width: 100%;
+    height: 1000px;
+}
+.top{
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+.header{
+    width: 30%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu{
+    width: 70%;
+    height: 60px;
+    background-color: darkred;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero{
+    width: 100%;
+    height: 300px;
+    background-color: deepskyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.main{
+    width: 40%;
+    height: 300px;
+    background-color: darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-section{
+    width: 30%;
+}
+.image{
+    width: 100%;
+    height: 150px;
+    background-color: lightgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.extra{
+    width: 100%;
+    height: 150px;
+    background-color: darkgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-web{
+    width: 100%;
+    height: 50px;
+    background-color: rebeccapurple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-phone{
+    display: none;
+}
+
+@media (max-width: 767px){
+    .warp{
+        width: 100%;
+        flex-direction: column;
+        font-size: 40px;
+    }
+    .top{
+        width: 100%;
+        height: 120px;
+        flex-direction: column;
+    }
+    .header{
+        width: 100%;
+        height: 60px;
+    }
+    .menu{
+        width: 100%;
+        height: 60px;
+    }
+    .hero{
+        width: 100%;
+        height: 230px;
+    }
+    .section{
+        flex-direction: column;
+        width: 100%;
+        height: 460px;
+    }
+    .main{
+        width: 100%;
+        height: 230px;
+    }
+    .banner-phone{
+        width: 100%;
+        height: 70px;
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rebeccapurple;
+    }
+
+    .banner-web{
+        display: none;
+    }
+    .right-section{
+        width: 100%;
+        height: 160px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .image{
+        width: 100%;
+        height: 80px;
+    }
+    .extra{
+        width: 100%;
+        height: 80px;
+    }
+}

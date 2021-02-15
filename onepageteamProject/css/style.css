@@ -1,2 +1,40 @@
 @import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
 
+.section01{
+    width: 100%;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.row>div{
+    float: left;
+}
+
+
+
+.d-w-3{
+    width: 30%;
+}
+.d-w-7{
+    width: 70%;
+}
+
+.logo{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.logo>img{
+    width: 100%;
+}
+
+.sec01-main-bg{
+    width: 100%;
+    background-color: #27404b;
+}
+.sec01-main-bg>img{
+    width: 90%;
+}

@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #f5f6f7;
+}
+.d-flex{
+    display: flex;
+}
+#sel{
+    padding: 3px 10px;
+    border: 1px solid #cccccc;
+    font-size: 12px;
+    font-weight: 400;
+    min-width: 82px;
+    height: 24px;
+    margin-top: 8px;
+    width: 82px;
+}
+.row{
+    margin: 0 15px;
+}
+.right-box{
+    justify-content: flex-end;
+}
+.logo-content>img{
+    width: 132px;
+}
+.logo-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 13px;
+}
+.keydown{
+    font-size: 12px;
+    line-height: 13px;
+    color: #8e8e8e;
+}
+.btn-key-down{
+    margin-top: 34px;
+}
+
+.id{
+    font-size: 15px;
+    line-height: 16px;
+    width: 100%;
+    color: #8e8e8e;
+    height: 29px;
+    margin: 0 0 8px;
+    padding: 5px 0px;
+}
+.id-btn{
+    margin-top: 5px;
+}
+
+.id-btn>input[type=text]:focus{
+    border: 1px solid #03c75a;
+    outline: none;
+}
+.password{
+    font-size: 15px;
+    line-height: 16px;
+    width: 100%;
+    color: #8e8e8e;
+    height: 29px;
+    margin: 0 0 8px;
+    padding: 5px 0px;
+}
+.password-btn{
+    margin-top: 5px;
+}
+.password-btn>input[type=password]:focus{
+    border: 1px solid #03c75a;
+    outline: none;
+}
+.login{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 49px;
+    margin: 16px 0 7px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    background-color: #03c75a;
+    -webkit-appearance: none;
+}
+.check-btn{
+    width: 20px;
+    height: 20px;
+}
+
+.login_check label{
+    font-size: 12px;
+    line-height: 26px;
+    height: 26px;
+    color: #333333;
+}
+
+.find-info{
+    margin-top: 20px;
+    border-top: 1px solid #e4e4e5;
+    padding-top: 6px;
+}
+
+.find-info a {
+    text-decoration: none;
+    color: #8e8e8e;
+    font-size: 12px;
+}
+.find-info li{
+    list-style: none;
+}
+.find-info>ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.find-info>ul>li:nth-child(2n){
+    margin: 0 3px;
+}
+
+.banner{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p{
+    font-size: 11px;
+    color: #7e7e7e;
+}
+
+.footer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner img{
+    max-width: 100%;
+}

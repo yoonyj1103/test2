@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 20px;
+    width: 90%;
+    border: 1px solid #959595;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    height: 130px;
+    background-color: #ededed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+
+}
+.logo{
+    font-size: 32px;
+    margin-left: 20px;
+    
+}
+.logo>a{
+    color: #959595;
+}
+.logo:hover{
+    position: relative;
+    width: auto;
+    height: 60px;
+    background-color: rgb(180, 180, 180);
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+}
+.menu{
+    width: auto;
+    height: 130px;
+    margin-right: 20px;
+    font-size: 22px;
+    font-weight: normal;
+    justify-self: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.menu>a{
+    width: auto;
+}
+.menu-hover{
+    padding: 0 10px;
+    color: black;
+}
+.menu-hover:hover{
+    background-color: rgb(180, 180, 180);
+    position: relative;
+    width: auto;
+    height: 60px;
+    padding: 0 10px;
+    justify-self: center;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+}
+.home{
+    color: #ffffff;
+    background-color: skyblue;
+    width: auto;
+    height: 60px;
+    border-radius: 3px;
+    justify-self: center;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+
+}
+.content{
+    width: 100%;
+    height: 800px;
+}
+h1{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+p{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+@media(max-width:500px){
+    .header{
+        width: 100%;
+        height: 240px;
+        flex-direction: column;
+        display: block;
+        padding-top: 10px;
+    }
+    .logo{
+        width: 95%;
+        height: 60px;
+        
+        margin: 0 10px 0 20px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 5px 0 0 5px;
+
+    }
+    .logo:hover{
+        width: 95%;
+        height: 60px;
+        margin-left: 2.5%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+
+    }
+    .logo>a:hover{
+        margin-left: 2.5%;
+    }
+    .menu{
+        width: 95%;
+        flex-direction: column;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        padding-bottom: 10px;
+        
+    }
+    .menu>a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        font-size: 20px;
+    }
+    .menu>.home{
+        width: 95%;
+        background-color: skyblue;
+    }
+    .home{
+        width: 95%;
+        height: 60px;
+        background-color: skyblue;
+        border-radius: 3px;
+        margin-left: 2.5%;
+    }
+    .menu-hover{
+        width: 95%;
+        height: 60px;
+        margin-left: 2.5%;
+        justify-self: center;
+        display: flex;
+        align-items: flex-start;
+    }
+    .menu-hover:hover{
+        width: 95%;
+        height: 60px;
+        margin-left: 2.5%;
+        justify-self: center;
+        display: flex;
+        align-items: flex-start;
+    }
+
+}
