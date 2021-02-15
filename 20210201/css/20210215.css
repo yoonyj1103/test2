@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.slider .swiper-slide{
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg01{
+    background-image: url(../images/photo1.jpg);
+}
+.bg02{
+    background-image: url(../images/photo2.jpg);
+}
+.bg03{
+    background-image: url(../images/photo3.jpg);
+}
+.bg04{
+    background-image: url(../images/photo4.jpg);
+}
+.bg05{
+    background-image: url(../images/photo5.jpg);
+}
+.bg06{
+    background-image: url(../images/photo6.jpg);
+}
+.bg07{
+    background-image: url(../images/photo7.jpg);
+}
+
+.slider h1{
+    color: purple;
+}
