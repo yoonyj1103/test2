@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style_quest.css">
+</head>
+<body>
+    <div class="warp">
+        <div class="content">
+            <div class="photobox1" id="gallery">
+                <img src="images/photo1.jpg" alt="" class="photo1">
+                <img src="images/photo2.jpg" alt="" class="photo2">
+                <img src="images/photo3.jpg" alt="" class="photo3">
+            </div>
+            <div class="photobox2" id="gallery">
+                <img src="images/photo4.jpg" alt="" class="photo1">
+                <img src="images/photo5.jpg" alt="" class="photo2">
+                <img src="images/photo6.jpg" alt="" class="photo3">
+            </div>
+            <div class="photobox3" id="gallery">
+                <img src="images/photo7.jpg" alt="" class="photo1">
+                <img src="images/photo8.jpg" alt="" class="photo2">
+                <img src="images/photo9.jpg" alt="" class="photo3">
+            </div>
+            <div class="click">
+                <a href="#prev" onclick="return prevGallery();">
+                    <span class="font back"> < </span>
+                </a>
+                <div class="clear"></div>
+                <a href="#next" onclick="return nextGallery();">
+                    <span class="font next"> > </span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/quest.js"></script>
+
+    
+</body>
+</html>

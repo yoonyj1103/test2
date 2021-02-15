@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            background:gold;
+            position: relative;
+        }
+        
+    </style>
+</head>
+<body>
+    <button class="btn">얍</button>
+    <button class="btn2">다운</button>
+    <div class="box">
+        tmmff
+    </div>
+    <script>
+        $(function(){
+            $('.btn').click(function(){
+                $('.box').css("left","300px");
+            });
+            $('.btn2').hover(function(){
+                $('.box').slideUp();
+            });
+        });
+    </script>
+</body>
+</html>

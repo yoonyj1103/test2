@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{scroll-behavior: smooth;}
+        *{margin: 0; padding: 0;}
+        section{width: 100%; height: 937px;}
+        .sec01{background-color: lime;}
+        .sec02{background-color: aliceblue;}
+        .sec03{background-color: lightcoral;}
+        .sec04{background-color: lightblue;}
+        .sec05{background-color: lightgreen;}
+        .fixed{
+            position: fixed;
+            right: 20px;
+        }
+        li{
+            list-style: none;
+            margin: 20px 0;
+        }
+        a{
+            text-decoration: none;
+            color: inherit;
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="fixed">
+        <ul>
+            <li>
+                <a href="#se01" onclick="return false">se01</a>
+            </li>
+            <li>
+                <a href="#se02">se02</a>
+            </li>
+            <li>
+                <a href="#se03">se03</a>
+            </li>
+            <li>
+                <a href="#se04">se04</a>
+            </li>
+            <li>
+                <a href="#se05">se05</a>
+            </li>
+        </ul>
+    </nav>
+    <section class="sec01" id="se01"></section>
+    <section class="sec02" id="se02"></section>
+    <section class="sec03" id="se03"></section>
+    <section class="sec04" id="se04"></section>
+    <section class="sec05" id="se05"></section>
+
+</body>
+</html>
